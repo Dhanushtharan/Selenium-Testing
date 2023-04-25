@@ -1,0 +1,63 @@
+{
+  "id": "5cde59f1-bf3a-4a61-9b92-4511074eb639",
+  "version": "2.0",
+  "name": "Day3-2",
+  "url": "https://demo.opencart.com/",
+  "tests": [{
+    "id": "eb419842-0f24-4263-8097-585544b97bcf",
+    "name": "Untitled",
+    "commands": [{
+      "id": "c1725c2c-1886-4c9d-b8f0-3312fb98ce73",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c7ab321-fbc5-478d-a7fe-37d02a88aaf4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "471ddebb-fd42-4f2f-8806-cfb93688d6bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phones & PDAs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cee1e39-6f6a-4ccf-89de-b8486fc6cd03",
+      "comment": "",
+      "command": "//click",
+      "target": "css=col:nth-child(1) .img-fluid",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95969433-f49c-46e4-b0be-2c6d690f3300",
+      "comment": "",
+      "command": "//storeText",
+      "target": "css=h1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51f96330-7374-4dc0-9bd8-698d94a68e75",
+      "comment": "",
+      "command": "echo",
+      "target": "$ var",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5d0b365a-8a5b-4815-af5f-f44002e2cf3f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb419842-0f24-4263-8097-585544b97bcf"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}

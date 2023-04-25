@@ -1,0 +1,70 @@
+{
+  "id": "97970671-6f3f-46dd-a7fe-b7ab6ff366e0",
+  "version": "2.0",
+  "name": "gfcxgv",
+  "url": "https://demo.opencart.com/",
+  "tests": [{
+    "id": "b186a909-529b-4840-ab91-c488e12d3bdd",
+    "name": "Untitled",
+    "commands": [{
+      "id": "413985d4-31d6-416b-86ff-08a1db2340fa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca69ef1a-c084-41f0-bd26-695e3aa881e9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1394x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b68b17a4-8449-46c9-a8aa-e5f8f4d1a1f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktops",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db5fdaba-122c-46e1-bd73-b15907cd6813",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mac (1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4039bfe0-fbca-4a0e-b578-8967bba3686c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=compare-total",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee27ce17-cea8-4d27-99f5-1b816c46bf89",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,20)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65df07fa-df49-4dde-8a09-081086814156",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=compare-total",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "23d7ee44-49f4-47f8-aeb8-736ef171af2d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b186a909-529b-4840-ab91-c488e12d3bdd"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
